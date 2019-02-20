@@ -1,0 +1,8 @@
+[Desktop Entry]
+version=1.0
+Type=Directory
+Icon=ubuntustudio-audio
+X-Ubuntu-Gettext-Domain=gnome-menus
+Name=Audio Tools
+Comment=Audio Tools suitable for Video Work Flows
+

@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="48px"
+   height="48px"
+   id="svg3026"
+   version="1.1"
+   inkscape:version="0.48.3.1 r9886"
+   sodipodi:docname="ubuntustudio-audio.svg">
+  <defs
+     id="defs3028">
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3998"
+       id="linearGradient4004"
+       x1="23.165178"
+       y1="0.68526787"
+       x2="23.165178"
+       y2="4.4604325"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(0,0.28571429)" />
+    <linearGradient
+       id="linearGradient3998">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop4000" />
+      <stop
+         style="stop-color:#9bd8ff;stop-opacity:0;"
+         offset="1"
+         id="stop4002" />
+    </linearGradient>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4040">
+      <path
+         transform="matrix(0.9956129,0,0,0.9956129,0.10529039,0.01585428)"
+         sodipodi:nodetypes="cssssc"
+         inkscape:connector-curvature="0"
+         id="path4042"
+         d="m 47.40625,6.3482143 0,-1.75 c 0,-2.0544256 -1.664324,-3.71875001 -3.71875,-3.71875001 l -39.375,0 c -2.0544256,0 -3.71875,1.66432441 -3.71875,3.71875001 l 0,1.75"
+         style="fill:none;stroke:url(#linearGradient4044);stroke-opacity:1;filter:url(#filter4026)" />
+    </clipPath>
+    <filter
+       color-interpolation-filters="sRGB"
+       inkscape:collect="always"
+       id="filter4050"
+       x="-0.013401869"
+       width="1.0268037"
+       y="-0.11472"
+       height="1.22944">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.26140625"
+         id="feGaussianBlur4052" />
+    </filter>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3790"
+       id="linearGradient3885"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.008439,0,0,1.008439,-0.20024894,-0.20024894)"
+       x1="28.40358"
+       y1="0.30586872"
+       x2="28.40358"
+       y2="47.630836" />
+    <linearGradient
+       id="linearGradient3790">
+      <stop
+         style="stop-color:#43b7ff;stop-opacity:1;"
+         offset="0"
+         id="stop3792" />
+      <stop
+         style="stop-color:#007cc8;stop-opacity:1;"
+         offset="1"
+         id="stop3794" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3782"
+       id="linearGradient3788"
+       x1="23.857143"
+       y1="0.14285906"
+       x2="23.857143"
+       y2="47.430515"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.008439,0,0,1.008439,-0.20024894,-0.20024894)" />
+    <linearGradient
+       id="linearGradient3782">
+      <stop
+         style="stop-color:#009bf9;stop-opacity:1;"
+         offset="0"
+         id="stop3784" />
+      <stop
+         style="stop-color:#00568c;stop-opacity:1;"
+         offset="1"
+         id="stop3786" />
+    </linearGradient>
+    <linearGradient
+       y2="47.630836"
+       x2="28.40358"
+       y1="0.30586872"
+       x1="28.40358"
+       gradientTransform="matrix(1.008439,0,0,1.008439,2.083176,3.083176)"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient3063"
+       xlink:href="#linearGradient3790"
+       inkscape:collect="always" />
+    <linearGradient
+       y2="47.430515"
+       x2="23.857143"
+       y1="0.14285906"
+       x1="23.857143"
+       gradientTransform="matrix(1.008439,0,0,1.008439,2.083176,3.083176)"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient3065"
+       xlink:href="#linearGradient3782"
+       inkscape:collect="always" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3790"
+       id="linearGradient3119"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.008439,0,0,1.008439,2.083176,3.083176)"
+       x1="28.40358"
+       y1="0.30586872"
+       x2="28.40358"
+       y2="47.630836" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3782"
+       id="linearGradient3121"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.008439,0,0,1.008439,2.083176,3.083176)"
+       x1="23.857143"
+       y1="0.14285906"
+       x2="23.857143"
+       y2="47.430515" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3998"
+       id="linearGradient3123"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(0,0.28571429)"
+       x1="23.165178"
+       y1="0.68526787"
+       x2="23.165178"
+       y2="4.4604325" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3782"
+       id="linearGradient3130"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.008439,0,0,1.008439,-0.2025383,-0.2025383)"
+       x1="23.857143"
+       y1="0.14285906"
+       x2="23.857143"
+       y2="47.430515" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="7"
+     inkscape:cx="31.982143"
+     inkscape:cy="28.732143"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     inkscape:grid-bbox="true"
+     inkscape:document-units="px"
+     inkscape:window-width="721"
+     inkscape:window-height="556"
+     inkscape:window-x="18"
+     inkscape:window-y="124"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata3031">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer">
+    <rect
+       style="fill:#009bf9;fill-opacity:1;stroke:url(#linearGradient3130);stroke-width:0.60506349999999998;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect2993"
+       width="47.393627"
+       height="47.393627"
+       x="0.30318651"
+       y="0.30318651"
+       ry="3.7568119"
+       inkscape:export-filename="/home/shubham/Shubham/Link to DA/SVG/Ubuntu Studio/Icons/Audio/40705.png"
+       inkscape:export-xdpi="480"
+       inkscape:export-ydpi="480" />
+    <path
+       style="fill:none;stroke:url(#linearGradient3123);stroke-width:0.59789759;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter4050)"
+       d="m 47.40625,6.3482143 0,-1.75 c 0,-2.0544256 -1.664324,-3.71875001 -3.71875,-3.71875001 l -39.375,0 c -2.0544256,0 -3.71875,1.66432441 -3.71875,3.71875001 l 0,1.75"
+       id="rect3834"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cssssc"
+       transform="matrix(1.0137743,0,0,1.0035518,-0.330581,-0.6345426)"
+       clip-path="url(#clipPath4040)"
+       inkscape:export-filename="/home/shubham/Shubham/Link to DA/SVG/Ubuntu Studio/Icons/Audio/40705.png"
+       inkscape:export-xdpi="480"
+       inkscape:export-ydpi="480" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       d="m 23.377829,5.0236786 0,27.6499684 c -2.082896,-0.688684 -5.113261,-0.243527 -7.72893,1.342584 -3.523609,2.136677 -4.983402,5.499726 -3.265745,7.511213 1.717657,2.011486 5.983337,1.918959 9.506946,-0.217717 2.439421,-1.479235 3.862367,-3.571011 3.955179,-5.370334 l 0,-0.435433 0,-23.223071 c 1.969462,-0.960291 11.136926,1.04399 10.087521,7.98293 C 38.345146,10.13812 29.324985,10.809818 25.627562,5.0236786 l -2.249733,0 z"
+       id="path3793"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/shubham/Shubham/Link to DA/SVG/Ubuntu Studio/Icons/Audio/40705.png"
+       inkscape:export-xdpi="480"
+       inkscape:export-ydpi="480" />
+  </g>
+</svg>

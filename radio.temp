@@ -1,0 +1,523 @@
+<!DOCTYPE Menu PUBLIC "-//freedesktop//DTD Menu 1.0//EN"
+  "http://www.freedesktop.org/standards/menu-spec/1.0/menu.dtd">
+
+<!-- Ham Radio menu -->
+<Menu>
+    <Name>Applications</Name>
+
+    <Exclude>
+        <Category>X-Xfce-Toplevel</Category>
+    </Exclude>
+
+
+<!--
+   <Include>
+        <Filename>exo-file-manager.desktop</Filename>
+        <Filename>exo-terminal-emulator.desktop</Filename>
+        <Filename>exo-web-browser.desktop</Filename>
+        <Filename>gedit.desktop</Filename>
+        <Filename>ubuntu-software-center.desktop</Filename>
+        <Filename>xfce4-session-logout.desktop</Filename>
+        <Filename>xfce-settings-manager.desktop</Filename>
+    </Include>
+-->
+
+   <Layout>
+        <Menuname>Antenna</Menuname>
+        <Menuname>CW</Menuname>
+        <Menuname>Digital Modes</Menuname>
+        <Menuname>Electronic Design</Menuname>
+        <Menuname>HF Propagation</Menuname>
+        <Menuname>Logging</Menuname>
+        <Menuname>Rig Control</Menuname>
+        <Menuname>Satellites</Menuname>
+        <Menuname>SDR</Menuname>
+        <Separator/>
+        <Merge type="menus"/>
+        <Menuname>US-Info</Menuname>
+        <Merge type="files"/>
+    </Layout>
+
+    <!-- Menu Configurations -->
+    <Menu>
+        <Name>Antenna</Name>
+        <Directory>ham-antenna.directory</Directory>
+
+        <Include>
+         <And>
+
+          <Or>
+            <Category>Graphics</Category>
+	    <Filename>chirp.desktop</Filename>  
+	    <Filename>CubicSDR.desktop</Filename>  
+          </Or>
+
+          <Not>
+            <Category>Photography</Category>
+            <Filename>agave.desktop</Filename>
+          </Not>
+
+         </And>
+        </Include>
+
+
+     <!-- Photography -->
+     <Menu>
+	<Name>Photography</Name>
+	<Directory>ubuntustudio-photography.directory</Directory>
+	<Include>
+	    <And>
+	        <Category>Photography</Category>
+	    </And>
+	    <Filename>digikam.desktop</Filename>  
+            <Filename>entangle.desktop</Filename>
+            <Filename>ristretto.desktop</Filename>
+	</Include>
+     </Menu> <!-- End Photography -->
+
+     <!-- Graphics Utilities -->
+     <Menu>
+	<Name>Utilities</Name>
+	<Directory>ubuntustudio-graphic-utility.directory</Directory>
+	<Include>
+            <Category>Scanning</Category>
+	    <And>
+	        <Category>Graphics</Category>
+	        <Category>Utilities</Category>
+	    </And>
+            <Filename>agave.desktop</Filename>
+            <Filename>display-im6.q16.desktop</Filename>
+            <Filename>font-manager.desktop</Filename>
+            <Filename>displaycal-3dlut-maker.desktop</Filename>
+            <Filename>displaycal-apply-profiles.desktop</Filename>
+            <Filename>displaycal-curve-viewer.desktop</Filename>
+            <Filename>displaycal.desktop</Filename>
+            <Filename>displaycal-profile-info.desktop</Filename>
+            <Filename>displaycal-scripting-client.desktop</Filename>
+            <Filename>displaycal-synthprofile.desktop</Filename>
+            <Filename>displaycal-testchart-editor.desktop</Filename>
+            <Filename>displaycal-vrml-to-x3d-converter.desktop</Filename>
+	</Include>
+     </Menu> <!-- End graphic utilities -->
+
+
+    </Menu>
+
+
+    <Menu>
+      <Name>Audio Production</Name>
+      <Directory>ubuntustudio-audioproduction.directory</Directory>
+      <Layout>
+        <Merge type="menus"/>
+        <Separator/>
+        <Filename>qjackctl.desktop</Filename>
+        <Filename>patchage.desktop</Filename>
+        <Filename>aconnectgui.desktop</Filename>
+        <Filename>gladish.desktop</Filename>
+        <Filename>ladi-player.desktop</Filename>
+        <Filename>ladi-system-tray.desktop</Filename>
+        <Filename>laditray.desktop</Filename>
+        <Filename>zita-mu1.desktop</Filename>
+        <Filename>meterbridge.desktop</Filename>
+        <Separator/>
+	<Merge type="files"/>
+      </Layout>
+      <Include>
+	<And>
+	  <Or>
+	    <And>
+		<Category>AudioVideoEditing</Category>
+		<Category>Audio</Category>
+	    </And>
+	    <Category>Audio</Category>
+	    <Category>Music</Category>
+	    <Category>AudioEditing</Category>
+	  </Or>
+	    <Not>
+		<Category>Mixer</Category>
+		<Category>HardwareSettings</Category>
+		<Category>Player</Category>
+		<Category>Tuner</Category>
+
+		<!--Effects That do not say so -->
+		<Filename>calf.desktop</Filename>
+		<Filename>guitarix.desktop</Filename>
+		<Filename>jack-rack.desktop</Filename>
+		<Filename>jamin.desktop</Filename>
+		<Filename>lv2rack.desktop</Filename>
+		<Filename>rakarrack.desktop</Filename>
+		<Filename>zita-at1.desktop</Filename>
+		<Filename>zita-rev1.desktop</Filename>
+		<Filename>zynjacku.desktop</Filename>
+
+		<!--Midi utilities that do not say so -->
+		<Filename>arpage.desktop</Filename>
+		<Filename>dd11-2-gmidi.desktop</Filename>
+		<Filename>dd11-split.desktop</Filename>
+		<Filename>gmidimonitor-alsa.desktop</Filename>
+		<Filename>gmidimonitor-jack.desktop</Filename>
+		<Filename>jack-keyboard.desktop</Filename>
+		<Filename>mcpdisp.desktop</Filename>
+		<Filename>qmidiarp.desktop</Filename>
+		<Filename>qmidinet.desktop</Filename>
+		<Filename>qmidiroute.desktop</Filename>
+		<Filename>vkeybd.desktop</Filename>
+		<Filename>zonage.desktop</Filename>
+
+		<!--Mixers that do not say so :P -->
+		<Filename>echomixer.desktop</Filename>
+		<Filename>alsamixergui.desktop</Filename>
+		<Filename>gnome-alsamixer.desktop</Filename>
+		<Filename>hdajackretask.desktop</Filename>
+		<Filename>hdspconf.desktop</Filename>
+		<Filename>hdspmixer.desktop</Filename>
+		<Filename>jack-mixer.desktop</Filename>
+		<Filename>jack_mixer.desktop</Filename>
+		<Filename>jackeq.desktop</Filename>
+		<Filename>envy24_control.desktop</Filename>
+		<Filename>mudita24.desktop</Filename>
+		<Filename>rmedigicontrol.desktop</Filename>
+		<Filename>qamix.desktop</Filename>
+
+		<!--Noise makers that do not belong in main audio -->
+		<Filename>aeolus.desktop</Filename>
+		<Filename>ams.desktop</Filename>
+		<Filename>amsynth.desktop</Filename>
+		<Filename>calf.desktop</Filename>
+		<Filename>drumkv1.desktop</Filename>
+		<Filename>samplv1.desktop</Filename>
+		<Filename>synthv1.desktop</Filename>
+		<Filename>foo-yc20.desktop</Filename>
+		<Filename>genpo.desktop</Filename>
+		<Filename>hexter.desktop</Filename>
+		<Filename>nekobee.desktop</Filename>
+		<Filename>phasex.desktop</Filename>
+		<Filename>qsynth.desktop</Filename>
+		<Filename>specimen.desktop</Filename>
+		<Filename>yoshimi.desktop</Filename>
+		<Filename>zynaddsubfx.desktop</Filename>
+		<Category>Synth</Category>
+
+		<!-- Audio Utilities not for audio main-->
+		<Filename>pasystray.desktop</Filename>
+		<Filename>kid3-qt.desktop</Filename>
+		<Filename>jaaa-alsa.desktop</Filename>
+		<Filename>jaaa-jack.desktop</Filename>
+		<Filename>japa-alsa.desktop</Filename>
+		<Filename>japa-jack.desktop</Filename>
+
+
+	    </Not>
+	</And>
+
+        <Filename>aconnectgui.desktop</Filename>
+        <Filename>gcdmaster.desktop</Filename>
+        <Filename>idjc.desktop</Filename>
+        <Filename>laditray.desktop</Filename>
+        <Filename>ladi-system-tray.desktop</Filename>
+        <Filename>snd.desktop</Filename>
+      </Include>
+
+      <Menu>
+        <Name>Mixers</Name>
+        <Directory>ubuntustudio-mixers.directory</Directory>
+        <Include>
+          <Filename>echomixer.desktop</Filename>
+          <Filename>alsamixergui.desktop</Filename>
+          <Filename>gnome-alsamixer.desktop</Filename>
+	  <Filename>hdajackretask.desktop</Filename>
+          <Filename>hdspconf.desktop</Filename>
+          <Filename>hdspmixer.desktop</Filename>
+          <Filename>jack-mixer.desktop</Filename>
+          <Filename>jack_mixer.desktop</Filename>
+          <Filename>jackeq.desktop</Filename>
+          <Filename>mudita24.desktop</Filename>
+          <Filename>rmedigicontrol.desktop</Filename>
+          <Filename>qamix.desktop</Filename>
+        <And>
+          <Category>Mixer</Category>
+        </And>
+        <And>
+          <Category>Audio</Category>
+          <Category>HardwareSettings</Category>
+        </And>
+        </Include>
+	<Layout>
+            <Merge type="files"/>
+        </Layout>
+      </Menu>
+
+      <Menu>
+       <Name>Instruments</Name>
+       <Directory>ubuntustudio-synths.directory</Directory>
+       <Include>
+        <Filename>aeolus.desktop</Filename>
+        <Filename>ams.desktop</Filename>
+        <Filename>amsynth.desktop</Filename>
+        <Filename>calf.desktop</Filename>
+        <Filename>drumkv1.desktop</Filename>
+        <Filename>samplv1.desktop</Filename>
+        <Filename>synthv1.desktop</Filename>
+        <Filename>foo-yc20.desktop</Filename>
+        <Filename>genpo.desktop</Filename>
+        <Filename>hexter.desktop</Filename>
+        <Filename>nekobee.desktop</Filename>
+        <Filename>phasex.desktop</Filename>
+        <Filename>qsynth.desktop</Filename>
+        <Filename>specimen.desktop</Filename>
+        <Filename>yoshimi.desktop</Filename>
+        <Filename>zynaddsubfx.desktop</Filename>
+        <Category>Synth</Category>
+       </Include>
+	<Layout>
+	    <Merge type="files"/>
+	</Layout>
+      </Menu>
+
+      <Menu>
+        <Name>Effects</Name>
+        <Directory>ubuntustudio-effects.directory</Directory>
+        <Include>
+          <Filename>calf.desktop</Filename>
+          <Filename>guitarix.desktop</Filename>
+          <Filename>jack-rack.desktop</Filename>
+          <Filename>jamin.desktop</Filename>
+          <Filename>lv2rack.desktop</Filename>
+          <Filename>rakarrack.desktop</Filename>
+          <Filename>zita-at1.desktop</Filename>
+          <Filename>zita-rev1.desktop</Filename>
+          <!--Filename>zynjacku.desktop</Filename Calf already does this-->
+        </Include>
+	<Layout>
+            <Merge type="files"/>
+        </Layout>
+      </Menu>
+
+      <Menu>
+       <Name>Midi Utilities</Name>
+       <Directory>ubuntustudio-midi.directory</Directory>
+       <Include>
+	<And>
+		<Category>Midi</Category>
+	  <Not>
+		<Category>Sequencer</Category>
+		<Category>AudioVideoEditing</Category>
+		<Category>AudioEditing</Category>
+		<Category>Player</Category>
+		<Category>Mixer</Category>
+		<Category>Tuner</Category>
+		<Category>Recorder</Category>
+	        <Filename>qjackctl.desktop</Filename>
+	        <Filename>guitarix.desktop</Filename>
+	        <Filename>gxtuner.desktop</Filename>
+	        <Filename>lmms.desktop</Filename>
+	        <Filename>qsynth.desktop</Filename>
+	        <Filename>non-sequencer.desktop</Filename>
+		<Filename>drumkv1.desktop</Filename>
+		<Filename>samplv1.desktop</Filename>
+		<Filename>synthv1.desktop</Filename>
+	  </Not>
+	</And>
+
+            <Filename>arpage.desktop</Filename>
+            <Filename>gmidimonitor-alsa.desktop</Filename>
+            <Filename>gmidimonitor-jack.desktop</Filename>
+            <Filename>qmidiarp.desktop</Filename>
+            <Filename>qmidiroute.desktop</Filename>
+            <Filename>vkeybd.desktop</Filename>
+            <Filename>zonage.desktop</Filename>
+       </Include>
+        <Layout>
+                <Merge type="files"/>
+        </Layout>
+      </Menu>
+
+	<!-- Audio Utilities -->
+	<Menu>
+	<Name>Utilities</Name>
+	<Directory>ubuntustudio-audio-utility.directory</Directory>
+	<Include>
+		<Filename>pasystray.desktop</Filename>
+	        <Filename>gtkguitune.desktop</Filename>
+	        <Filename>gxtuner.desktop</Filename>
+		<Filename>kid3-qt.desktop</Filename>
+		<Filename>jaaa-alsa.desktop</Filename>
+		<Filename>jaaa-jack.desktop</Filename>
+		<Filename>japa-alsa.desktop</Filename>
+		<Filename>japa-jack.desktop</Filename>
+		<Filename>lingot.desktop</Filename>
+            <Category>Tuner</Category>
+	    <And>
+	        <Category>Audio</Category>
+	        <Category>Utilities</Category>
+	    </And>
+	</Include>
+        <Layout>
+            <Merge type="files"/>
+        </Layout>
+     </Menu> <!-- End Audio utilities -->
+
+    </Menu>
+
+    <Menu>
+	<Name>Video Production</Name>
+	<Directory>ubuntustudio-videoproduction.directory</Directory>
+	<Include>
+	 <And>
+		<Category>AudioVideo</Category>
+		<Not>
+			<Category>Player</Category>
+			<Category>Audio</Category>
+			<Category>Music</Category>
+			<Category>X-Jack</Category>
+			<Filename>gtkguitune.desktop</Filename>
+			<Filename>jackeq.desktop</Filename>
+			<Filename>jack-rack.desktop</Filename>
+			<Filename>ladi-system-tray.desktop</Filename>
+			<Filename>lingot.desktop</Filename>
+
+		</Not>
+	 </And>
+            <Filename>blender.desktop</Filename>
+            <Filename>xjadeo.desktop</Filename>
+	</Include>
+    </Menu>
+
+    <Menu>
+        <Name>US-Info</Name>
+        <Directory>ubuntustudio-info.directory</Directory>
+	<!-- we should make a X-UbuntuStudio cat -->
+        <Include>
+	    <And>
+	      <Or>
+		<Category>Documentation</Category>
+		<Filename>xfce4-about.desktop</Filename>
+	      </Or>
+	      <Not>
+		<Category>Development</Category>
+	      </Not>
+	    </And>
+        </Include>
+    </Menu>
+
+       <Menu>   
+                <Name>Multimedia</Name>
+        <Directory>ubuntustudio-noshow.directory</Directory>
+
+        </Menu> 
+
+    <Menu>
+        <Name>Media Playback</Name>
+        <Directory>ubuntustudio-mediaplayback.directory</Directory>
+        <Include>
+         <And>
+            <Category>AudioVideo</Category>
+            <Category>Player</Category>
+         </And>
+        </Include>
+    </Menu>
+
+    <Menu>
+        <Name>System</Name>
+          <Exclude>
+            <Category>Documentation</Category>
+          </Exclude>
+    </Menu>
+
+
+</Menu>
+menu "Antenna" folder {
+  prog    "Fl Moxgen" /usr/local/share/icons/frect.png /usr/local/bin/fl_moxgen
+  prog    "RigExpert (text)" /usr/share/pixmaps/xterm-color_32x32.xpm /usr/bin/xterm -hold -e "echo Command line tool, try: aa-analyzer.pl && /usr/local/bin/aa-analyzer.pl -version"
+  prog    "RigExpert (gui)" /usr/share/pixmaps/xterm-color_32x32.xpm /usr/local/bin/flaa 
+  prog    "Xnec2c" /usr/share/pixmaps/gpredict/icons/gpredict-antenna.png "/usr/bin/xnec2c"
+  prog    "Xnec2c Examples" /usr/share/pixmaps/gpredict/icons/gpredict-antenna.png "/usr/bin/xfe /usr/share/doc/xnec2c/examples"
+}
+
+menu "CW" folder {
+  prog    "cwwav" /usr/share/pixmaps/xterm-color_32x32.xpm /usr/bin/xterm -hold -e "echo Command line tool, try: cwwav --help && /usr/local/bin/cwwav --help"
+  prog    "ebook2cw" /usr/share/pixmaps/ebook2cw.xpm /usr/bin/ebook2cwgui
+  prog    "flwkey" /usr/local/share/pixmaps/flwkey.xpm /usr/local/bin/flwkey
+  prog    "MicroFox" /usr/local/share/pixmaps/xcwcp.xpm /usr/local/bin/mfc_gpl
+  prog    "qrq" /usr/share/pixmaps/qrq.png /usr/bin/xterm -e "/usr/bin/qrq"
+  prog    "xcwcp" /usr/local/share/pixmaps/xcwcp.xpm /usr/local/bin/xcwcp
+}
+
+menu "Digital Modes" folder {
+  prog    "direwolf" /usr/local/share/icons/dw-icon.png /usr/bin/xterm -hold -e "echo Command line tool, try: direwolf --help"
+  prog    "echolink" /usr/local/share/pixmaps/link.xpm /usr/local/bin/qtel
+  prog    "FreeDV"   /usr/local/share/icons/freedv.png /usr/local/bin/freedv
+  prog    "flamp"    /usr/local/share/pixmaps/flamp.xpm /usr/local/bin/flamp
+  prog    "flarq"    /usr/local/share/pixmaps/flarq.xpm  /usr/local/bin/flarq
+  prog    "fldigi"   /usr/local/share/pixmaps/fldigi.xpm /usr/local/bin/fldigi
+  prog    "flmsg"    /usr/local/share/pixmaps/flmsg.xpm /usr/local/bin/flmsg
+  prog    "flwrap"   /usr/local/share/pixmaps/flwrap.xpm /usr/local/bin/flwrap
+  prog    "glfer"    /usr/local/share/pixmaps/xlog/cwdaemon.png /usr/bin/glfer
+  prog    "js8call"  /usr/share/pixmaps/js8call_icon.png /usr/bin/js8call
+  prog    "linpac"   /usr/share/xfe/icons/windows-theme/wave_16x16.png /usr/bin/xterm -hold -e "echo Command line tool, try: linpac"
+  prog    "pskmail"  /usr/local/share/pixmaps/flmsg.xpm "/usr/bin/java -jar /usr/local/src/jpskmail/javapskmail.jar"
+  prog    "pskmail_server"  /usr/local/share/pixmaps/flmsg.xpm /usr/local/bin/pskmail_server
+  prog    "qsstv"    /usr/local/share/icons/qsstv.png /usr/bin/qsstv
+  prog    "TinyTrak3" /usr/local/share/pixmaps/flmsg.xpm /usr/local/bin/tt3_gpl
+  prog    "wsjt-x"   /usr/share/pixmaps/wsjtx_icon.png /usr/bin/wsjtx
+  prog    "xastir"   /usr/share/xfe/icons/tango-theme/home.png /usr/local/bin/xastir
+  prog    "xwefax"   /usr/share/icons/gnome/16x16/status/weather-few-clouds-night.png /usr/local/bin/xwefax
+}
+
+menu "Electronic Design" folder {
+  prog    "Arduino" /usr/local/share/icons/arduino.png /usr/local/bin/arduino
+  prog    "Gerber Viewer" /usr/share/icons/hicolor/16x16/apps/gerbv.png /usr/bin/gerbv
+  prog    "KiCad" /usr/share/icons/hicolor/16x16/mimetypes/application-x-kicad-project.png /usr/bin/kicad
+  prog    "Netlist" /usr/share/icons/hicolor/16x16/mimetypes/application-x-pcb-netlist.png /usr/bin/xterm -hold -e "echo Command line tool, try: gnetlist && gnetlist -h"
+  prog    "PCB Layout" /usr/share/pixmaps/pcb.xpm /usr/bin/pcbnew
+  prog    "Resistors" /usr/share/gresistor/icon.png /usr/bin/gresistor
+  prog    "Schematic" /usr/share/icons/hicolor/48x48/apps/geda-gschem.png /usr/bin/gschem
+  prog    "Spice (cmd)" /usr/local/share/pixmaps/gspiceui-32x32.xpm /usr/bin/xterm -hold -e "echo Command line tool: try ngspice && ngspice --help"
+  prog    "Easy Spice" /usr/local/share/pixmaps/gspiceui-32x32.xpm /usr/bin/easy_spice
+  prog    "gSpiceUI" /usr/local/share/pixmaps/gspiceui-32x32.xpm /usr/bin/gspiceui
+  prog    "Smith Chart" /usr/share/pixmaps/mini-gsmc.xpm /usr/bin/gsmc
+}
+
+menu "HF Propagation" folder {
+  prog    "Beacons"  /usr/share/xfe/icons/windows-theme/wave_16x16.png /usr/bin/xterm -e "/usr/local/bin/ibp FN42go"
+  prog    "DX Cluster" /usr/share/xdx/pixmaps/xdx-logo.png /usr/bin/xdx
+  prog    "flcluster" /usr/share/xdx/pixmaps/xdx.xpm /usr/local/bin/flcluster
+  prog    "qgrid" /usr/local/share/pixmaps/qgrid.xpm /usr/local/bin/qgrid
+  prog    "Solar Data" /usr/share/pixmaps/sunclock.xpm /usr/local/bin/get_prop_data
+  prog    "SunClock" /usr/share/pixmaps/sunclock2.xpm /usr/bin/sunclock
+  prog    "splat"   /usr/share/icons/hicolor/16x16/apps/wicd-gtk.png /usr/bin/xterm -hold -e "echo Command line tool: try splat && /usr/bin/splat | less"
+  prog    "voacap"   /usr/local/share/icons/voacap.png /usr/local/bin/start_voacap
+}
+
+menu "Logging" folder {
+  prog    "cqrlog" /usr/share/icons/cqrlog.png /usr/bin/cqrlog
+  prog    "fllog"  /usr/local/share/pixmaps/fllog.xpm /usr/local/bin/fllog
+  prog    "flnet"  /usr/local/share/pixmaps/flnet.xpm /usr/local/bin/flnet
+  prog    "TQSL"   /usr/local/share/icons/TrustedQSL.png /usr/local/bin/tqsl
+  prog    "xlog"   /usr/local/share/icons/xlog-icon.png /usr/local/bin/xlog
+}
+
+menu "Rig Control" folder {
+  prog    "chirp"  /usr/share/pixmaps/chirp.png /usr/bin/chirpw
+  prog    "grig"   /usr/share/pixmaps/grig/ic910.png /usr/bin/grig
+  prog    "flrig"  /usr/local/share/pixmaps/flrig.xpm /usr/local/bin/flrig
+}
+
+menu "Satellites" folder {
+  prog    "APT WX Sats"   /usr/share/pixmaps/gpredict/icons/gpredict-azel-small.png /usr/local/bin/xwxapt
+  prog    "Earthtrack"    /usr/share/pixmaps/language-selector.png /usr/bin/earthtrack
+  prog    "Earthtrack (cleanup)" /usr/share/pixmaps/language-selector.png /usr/local/bin/earthtrack_cleanup
+  prog    "Fox-1A Telemetry" /usr/share/pixmaps/gpredict/icons/gpredict-azel-small.png /usr/local/bin/foxtelem
+  prog    "Gpredict"      /usr/share/pixmaps/gpredict/icons/gpredict-antenna-small.png /usr/bin/gpredict
+  prog    "hamfax" /usr/local/share/icons/gpredict.png /usr/bin/hamfax
+  prog    "Predict (server)" /usr/local/share/icons/gpredict.png /bin/sh -c "/usr/bin/predict -s"
+}
+
+menu "SDR" folder {
+  prog    "dream" /usr/share/xfe/icons/windows-theme/wave_16x16.png /usr/bin/dream
+  prog    "grc" /usr/share/gnuradio/grc/freedesktop/grc-icon-32.png /usr/bin/gnuradio-companion
+  prog    "grc examples" /usr/share/gnuradio/grc/freedesktop/grc-icon-32.png /usr/bin/xfe /usr/share/gnuradio/examples
+  prog    "gqrx" /usr/share/xfe/icons/windows-theme/wave_16x16.png /usr/bin/gqrx
+  prog    "quisk" /usr/share/xfe/icons/windows-theme/wave_16x16.png /usr/local/bin/quisk
+}
+

@@ -1,0 +1,9 @@
+[Desktop Entry]
+version=1.0
+Type=Directory
+Icon=system-help
+X-Ubuntu-Gettext-Domain=gnome-menus
+Name=Unused Menu
+Comment=This to make a menu not show
+NoDisplay=true
+

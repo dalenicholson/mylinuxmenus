@@ -1,0 +1,8 @@
+[Desktop Entry]
+version=1.0
+Type=Directory
+Icon=ubuntustudio-logo
+X-Ubuntu-Gettext-Domain=gnome-menus
+Name=Ubuntu Studio Information
+Comment=Information, Websites and IRC for Ubuntu Studio
+

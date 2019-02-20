@@ -1,0 +1,455 @@
+<!DOCTYPE Menu PUBLIC "-//freedesktop//DTD Menu 1.0//EN"
+  "http://www.freedesktop.org/standards/menu-spec/1.0/menu.dtd">
+
+<!-- new ubuntustudio menu -->
+<Menu>
+    <Name>Applications</Name>
+
+    <Exclude>
+        <Category>X-Xfce-Toplevel</Category>
+    </Exclude>
+
+   <Include>
+        <Filename>exo-file-manager.desktop</Filename>
+        <Filename>exo-terminal-emulator.desktop</Filename>
+        <Filename>exo-web-browser.desktop</Filename>
+        <Filename>gedit.desktop</Filename>
+        <Filename>ubuntu-software-center.desktop</Filename>
+        <Filename>xfce4-session-logout.desktop</Filename>
+        <Filename>xfce-settings-manager.desktop</Filename>
+    </Include>
+
+   <Layout>
+        <Filename>exo-web-browser.desktop</Filename>
+        <Filename>exo-file-manager.desktop</Filename>
+        <Filename>gedit.desktop</Filename>
+        <Filename>exo-terminal-emulator.desktop</Filename>
+        <Filename>xfce-settings-manager.desktop</Filename>
+        <Separator/>
+        <Menuname>Audio Production</Menuname>
+        <Menuname>Graphics Design</Menuname>
+        <!--Menuname>Photography</Menuname-->
+        <Menuname>Video Production</Menuname>
+        <!--Menuname>Publishing</Menuname-->
+        <Separator/>
+        <Merge type="menus"/>
+        <Menuname>US-Info</Menuname>
+        <Merge type="files"/>
+        <Filename>xfce4-session-logout.desktop</Filename>
+    </Layout>
+
+       <Menu>   
+                <Name>Graphics</Name>
+        <Directory>ubuntustudio-noshow.directory</Directory>
+
+        </Menu> 
+
+       <Menu>   
+                <Name>Settings</Name>
+        <Directory>ubuntustudio-noshow.directory</Directory>
+
+        </Menu> 
+
+    <!-- Ubuntu Studio stuff for a bit -->
+    <Menu>
+        <Name>Graphics Design</Name>
+        <Directory>ubuntustudio-graphics.directory</Directory>
+
+        <Include>
+         <And>
+
+          <Or>
+            <Category>Graphics</Category>
+            <Category>Publishing</Category>
+          </Or>
+
+          <Not>
+            <Category>Photography</Category>
+            <Category>Scanning</Category>
+            <Filename>agave.desktop</Filename>
+            <Filename>evince.desktop</Filename>
+            <Filename>entangle.desktop</Filename>
+            <Filename>font-manager.desktop</Filename>
+            <Filename>ristretto.desktop</Filename>
+            <Filename>display-im6.q16.desktop</Filename>
+            <Filename>display-im6.desktop</Filename>
+            <Filename>displaycal-3dlut-maker.desktop</Filename>
+            <Filename>displaycal-apply-profiles.desktop</Filename>
+            <Filename>displaycal-curve-viewer.desktop</Filename>
+            <Filename>displaycal.desktop</Filename>
+            <Filename>displaycal-profile-info.desktop</Filename>
+            <Filename>displaycal-scripting-client.desktop</Filename>
+            <Filename>displaycal-synthprofile.desktop</Filename>
+            <Filename>displaycal-testchart-editor.desktop</Filename>
+            <Filename>displaycal-vrml-to-x3d-converter.desktop</Filename>
+          </Not>
+
+         </And>
+        </Include>
+
+
+     <!-- Photography -->
+     <Menu>
+	<Name>Photography</Name>
+	<Directory>ubuntustudio-photography.directory</Directory>
+	<Include>
+	    <And>
+	        <Category>Photography</Category>
+	    </And>
+	    <Filename>digikam.desktop</Filename>  
+            <Filename>entangle.desktop</Filename>
+            <Filename>ristretto.desktop</Filename>
+	</Include>
+     </Menu> <!-- End Photography -->
+
+     <!-- Graphics Utilities -->
+     <Menu>
+	<Name>Utilities</Name>
+	<Directory>ubuntustudio-graphic-utility.directory</Directory>
+	<Include>
+            <Category>Scanning</Category>
+	    <And>
+	        <Category>Graphics</Category>
+	        <Category>Utilities</Category>
+	    </And>
+            <Filename>agave.desktop</Filename>
+            <Filename>display-im6.q16.desktop</Filename>
+            <Filename>font-manager.desktop</Filename>
+            <Filename>displaycal-3dlut-maker.desktop</Filename>
+            <Filename>displaycal-apply-profiles.desktop</Filename>
+            <Filename>displaycal-curve-viewer.desktop</Filename>
+            <Filename>displaycal.desktop</Filename>
+            <Filename>displaycal-profile-info.desktop</Filename>
+            <Filename>displaycal-scripting-client.desktop</Filename>
+            <Filename>displaycal-synthprofile.desktop</Filename>
+            <Filename>displaycal-testchart-editor.desktop</Filename>
+            <Filename>displaycal-vrml-to-x3d-converter.desktop</Filename>
+	</Include>
+     </Menu> <!-- End graphic utilities -->
+
+
+    </Menu>
+
+
+    <Menu>
+      <Name>Audio Production</Name>
+      <Directory>ubuntustudio-audioproduction.directory</Directory>
+      <Layout>
+        <Merge type="menus"/>
+        <Separator/>
+        <Filename>qjackctl.desktop</Filename>
+        <Filename>patchage.desktop</Filename>
+        <Filename>aconnectgui.desktop</Filename>
+        <Filename>gladish.desktop</Filename>
+        <Filename>ladi-player.desktop</Filename>
+        <Filename>ladi-system-tray.desktop</Filename>
+        <Filename>laditray.desktop</Filename>
+        <Filename>zita-mu1.desktop</Filename>
+        <Filename>meterbridge.desktop</Filename>
+        <Separator/>
+	<Merge type="files"/>
+      </Layout>
+      <Include>
+	<And>
+	  <Or>
+	    <And>
+		<Category>AudioVideoEditing</Category>
+		<Category>Audio</Category>
+	    </And>
+	    <Category>Audio</Category>
+	    <Category>Music</Category>
+	    <Category>AudioEditing</Category>
+	  </Or>
+	    <Not>
+		<Category>Mixer</Category>
+		<Category>HardwareSettings</Category>
+		<Category>Player</Category>
+		<Category>Tuner</Category>
+
+		<!--Effects That do not say so -->
+		<Filename>calf.desktop</Filename>
+		<Filename>guitarix.desktop</Filename>
+		<Filename>jack-rack.desktop</Filename>
+		<Filename>jamin.desktop</Filename>
+		<Filename>lv2rack.desktop</Filename>
+		<Filename>rakarrack.desktop</Filename>
+		<Filename>zita-at1.desktop</Filename>
+		<Filename>zita-rev1.desktop</Filename>
+		<Filename>zynjacku.desktop</Filename>
+
+		<!--Midi utilities that do not say so -->
+		<Filename>arpage.desktop</Filename>
+		<Filename>dd11-2-gmidi.desktop</Filename>
+		<Filename>dd11-split.desktop</Filename>
+		<Filename>gmidimonitor-alsa.desktop</Filename>
+		<Filename>gmidimonitor-jack.desktop</Filename>
+		<Filename>jack-keyboard.desktop</Filename>
+		<Filename>mcpdisp.desktop</Filename>
+		<Filename>qmidiarp.desktop</Filename>
+		<Filename>qmidinet.desktop</Filename>
+		<Filename>qmidiroute.desktop</Filename>
+		<Filename>vkeybd.desktop</Filename>
+		<Filename>zonage.desktop</Filename>
+
+		<!--Mixers that do not say so :P -->
+		<Filename>echomixer.desktop</Filename>
+		<Filename>alsamixergui.desktop</Filename>
+		<Filename>gnome-alsamixer.desktop</Filename>
+		<Filename>hdajackretask.desktop</Filename>
+		<Filename>hdspconf.desktop</Filename>
+		<Filename>hdspmixer.desktop</Filename>
+		<Filename>jack-mixer.desktop</Filename>
+		<Filename>jack_mixer.desktop</Filename>
+		<Filename>jackeq.desktop</Filename>
+		<Filename>envy24_control.desktop</Filename>
+		<Filename>mudita24.desktop</Filename>
+		<Filename>rmedigicontrol.desktop</Filename>
+		<Filename>qamix.desktop</Filename>
+
+		<!--Noise makers that do not belong in main audio -->
+		<Filename>aeolus.desktop</Filename>
+		<Filename>ams.desktop</Filename>
+		<Filename>amsynth.desktop</Filename>
+		<Filename>calf.desktop</Filename>
+		<Filename>drumkv1.desktop</Filename>
+		<Filename>samplv1.desktop</Filename>
+		<Filename>synthv1.desktop</Filename>
+		<Filename>foo-yc20.desktop</Filename>
+		<Filename>genpo.desktop</Filename>
+		<Filename>hexter.desktop</Filename>
+		<Filename>nekobee.desktop</Filename>
+		<Filename>phasex.desktop</Filename>
+		<Filename>qsynth.desktop</Filename>
+		<Filename>specimen.desktop</Filename>
+		<Filename>yoshimi.desktop</Filename>
+		<Filename>zynaddsubfx.desktop</Filename>
+		<Category>Synth</Category>
+
+		<!-- Audio Utilities not for audio main-->
+		<Filename>pasystray.desktop</Filename>
+		<Filename>kid3-qt.desktop</Filename>
+		<Filename>jaaa-alsa.desktop</Filename>
+		<Filename>jaaa-jack.desktop</Filename>
+		<Filename>japa-alsa.desktop</Filename>
+		<Filename>japa-jack.desktop</Filename>
+
+
+	    </Not>
+	</And>
+
+        <Filename>aconnectgui.desktop</Filename>
+        <Filename>gcdmaster.desktop</Filename>
+        <Filename>idjc.desktop</Filename>
+        <Filename>laditray.desktop</Filename>
+        <Filename>ladi-system-tray.desktop</Filename>
+        <Filename>snd.desktop</Filename>
+      </Include>
+
+      <Menu>
+        <Name>Mixers</Name>
+        <Directory>ubuntustudio-mixers.directory</Directory>
+        <Include>
+          <Filename>echomixer.desktop</Filename>
+          <Filename>alsamixergui.desktop</Filename>
+          <Filename>gnome-alsamixer.desktop</Filename>
+	  <Filename>hdajackretask.desktop</Filename>
+          <Filename>hdspconf.desktop</Filename>
+          <Filename>hdspmixer.desktop</Filename>
+          <Filename>jack-mixer.desktop</Filename>
+          <Filename>jack_mixer.desktop</Filename>
+          <Filename>jackeq.desktop</Filename>
+          <Filename>mudita24.desktop</Filename>
+          <Filename>rmedigicontrol.desktop</Filename>
+          <Filename>qamix.desktop</Filename>
+        <And>
+          <Category>Mixer</Category>
+        </And>
+        <And>
+          <Category>Audio</Category>
+          <Category>HardwareSettings</Category>
+        </And>
+        </Include>
+	<Layout>
+            <Merge type="files"/>
+        </Layout>
+      </Menu>
+
+      <Menu>
+       <Name>Instruments</Name>
+       <Directory>ubuntustudio-synths.directory</Directory>
+       <Include>
+        <Filename>aeolus.desktop</Filename>
+        <Filename>ams.desktop</Filename>
+        <Filename>amsynth.desktop</Filename>
+        <Filename>calf.desktop</Filename>
+        <Filename>drumkv1.desktop</Filename>
+        <Filename>samplv1.desktop</Filename>
+        <Filename>synthv1.desktop</Filename>
+        <Filename>foo-yc20.desktop</Filename>
+        <Filename>genpo.desktop</Filename>
+        <Filename>hexter.desktop</Filename>
+        <Filename>nekobee.desktop</Filename>
+        <Filename>phasex.desktop</Filename>
+        <Filename>qsynth.desktop</Filename>
+        <Filename>specimen.desktop</Filename>
+        <Filename>yoshimi.desktop</Filename>
+        <Filename>zynaddsubfx.desktop</Filename>
+        <Category>Synth</Category>
+       </Include>
+	<Layout>
+	    <Merge type="files"/>
+	</Layout>
+      </Menu>
+
+      <Menu>
+        <Name>Effects</Name>
+        <Directory>ubuntustudio-effects.directory</Directory>
+        <Include>
+          <Filename>calf.desktop</Filename>
+          <Filename>guitarix.desktop</Filename>
+          <Filename>jack-rack.desktop</Filename>
+          <Filename>jamin.desktop</Filename>
+          <Filename>lv2rack.desktop</Filename>
+          <Filename>rakarrack.desktop</Filename>
+          <Filename>zita-at1.desktop</Filename>
+          <Filename>zita-rev1.desktop</Filename>
+          <!--Filename>zynjacku.desktop</Filename Calf already does this-->
+        </Include>
+	<Layout>
+            <Merge type="files"/>
+        </Layout>
+      </Menu>
+
+      <Menu>
+       <Name>Midi Utilities</Name>
+       <Directory>ubuntustudio-midi.directory</Directory>
+       <Include>
+	<And>
+		<Category>Midi</Category>
+	  <Not>
+		<Category>Sequencer</Category>
+		<Category>AudioVideoEditing</Category>
+		<Category>AudioEditing</Category>
+		<Category>Player</Category>
+		<Category>Mixer</Category>
+		<Category>Tuner</Category>
+		<Category>Recorder</Category>
+	        <Filename>qjackctl.desktop</Filename>
+	        <Filename>guitarix.desktop</Filename>
+	        <Filename>gxtuner.desktop</Filename>
+	        <Filename>lmms.desktop</Filename>
+	        <Filename>qsynth.desktop</Filename>
+	        <Filename>non-sequencer.desktop</Filename>
+		<Filename>drumkv1.desktop</Filename>
+		<Filename>samplv1.desktop</Filename>
+		<Filename>synthv1.desktop</Filename>
+	  </Not>
+	</And>
+
+            <Filename>arpage.desktop</Filename>
+            <Filename>gmidimonitor-alsa.desktop</Filename>
+            <Filename>gmidimonitor-jack.desktop</Filename>
+            <Filename>qmidiarp.desktop</Filename>
+            <Filename>qmidiroute.desktop</Filename>
+            <Filename>vkeybd.desktop</Filename>
+            <Filename>zonage.desktop</Filename>
+       </Include>
+        <Layout>
+                <Merge type="files"/>
+        </Layout>
+      </Menu>
+
+	<!-- Audio Utilities -->
+	<Menu>
+	<Name>Utilities</Name>
+	<Directory>ubuntustudio-audio-utility.directory</Directory>
+	<Include>
+		<Filename>pasystray.desktop</Filename>
+	        <Filename>gtkguitune.desktop</Filename>
+	        <Filename>gxtuner.desktop</Filename>
+		<Filename>kid3-qt.desktop</Filename>
+		<Filename>jaaa-alsa.desktop</Filename>
+		<Filename>jaaa-jack.desktop</Filename>
+		<Filename>japa-alsa.desktop</Filename>
+		<Filename>japa-jack.desktop</Filename>
+		<Filename>lingot.desktop</Filename>
+            <Category>Tuner</Category>
+	    <And>
+	        <Category>Audio</Category>
+	        <Category>Utilities</Category>
+	    </And>
+	</Include>
+        <Layout>
+            <Merge type="files"/>
+        </Layout>
+     </Menu> <!-- End Audio utilities -->
+
+    </Menu>
+
+    <Menu>
+	<Name>Video Production</Name>
+	<Directory>ubuntustudio-videoproduction.directory</Directory>
+	<Include>
+	 <And>
+		<Category>AudioVideo</Category>
+		<Not>
+			<Category>Player</Category>
+			<Category>Audio</Category>
+			<Category>Music</Category>
+			<Category>X-Jack</Category>
+			<Filename>gtkguitune.desktop</Filename>
+			<Filename>jackeq.desktop</Filename>
+			<Filename>jack-rack.desktop</Filename>
+			<Filename>ladi-system-tray.desktop</Filename>
+			<Filename>lingot.desktop</Filename>
+
+		</Not>
+	 </And>
+            <Filename>blender.desktop</Filename>
+            <Filename>xjadeo.desktop</Filename>
+	</Include>
+    </Menu>
+
+    <Menu>
+        <Name>US-Info</Name>
+        <Directory>ubuntustudio-info.directory</Directory>
+	<!-- we should make a X-UbuntuStudio cat -->
+        <Include>
+	    <And>
+	      <Or>
+		<Category>Documentation</Category>
+		<Filename>xfce4-about.desktop</Filename>
+	      </Or>
+	      <Not>
+		<Category>Development</Category>
+	      </Not>
+	    </And>
+        </Include>
+    </Menu>
+
+       <Menu>   
+                <Name>Multimedia</Name>
+        <Directory>ubuntustudio-noshow.directory</Directory>
+
+        </Menu> 
+
+    <Menu>
+        <Name>Media Playback</Name>
+        <Directory>ubuntustudio-mediaplayback.directory</Directory>
+        <Include>
+         <And>
+            <Category>AudioVideo</Category>
+            <Category>Player</Category>
+         </And>
+        </Include>
+    </Menu>
+
+    <Menu>
+        <Name>System</Name>
+          <Exclude>
+            <Category>Documentation</Category>
+          </Exclude>
+    </Menu>
+
+
+</Menu>

@@ -1,0 +1,8 @@
+[Desktop Entry]
+version=1.0
+Type=Directory
+Icon=applications-accessories
+X-Ubuntu-Gettext-Domain=gnome-menus
+Name=Audio Utilities
+Comment=Utilities for Audio Production
+

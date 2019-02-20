@@ -1,0 +1,95 @@
+menu "Antenna" folder {
+  prog    "Fl Moxgen" /usr/local/share/icons/frect.png /usr/local/bin/fl_moxgen
+  prog    "RigExpert (text)" /usr/share/pixmaps/xterm-color_32x32.xpm /usr/bin/xterm -hold -e "echo Command line tool, try: aa-analyzer.pl && /usr/local/bin/aa-analyzer.pl -version"
+  prog    "RigExpert (gui)" /usr/share/pixmaps/xterm-color_32x32.xpm /usr/local/bin/flaa 
+  prog    "Xnec2c" /usr/share/pixmaps/gpredict/icons/gpredict-antenna.png "/usr/bin/xnec2c"
+  prog    "Xnec2c Examples" /usr/share/pixmaps/gpredict/icons/gpredict-antenna.png "/usr/bin/xfe /usr/share/doc/xnec2c/examples"
+}
+
+menu "CW" folder {
+  prog    "cwwav" /usr/share/pixmaps/xterm-color_32x32.xpm /usr/bin/xterm -hold -e "echo Command line tool, try: cwwav --help && /usr/local/bin/cwwav --help"
+  prog    "ebook2cw" /usr/share/pixmaps/ebook2cw.xpm /usr/bin/ebook2cwgui
+  prog    "flwkey" /usr/local/share/pixmaps/flwkey.xpm /usr/local/bin/flwkey
+  prog    "MicroFox" /usr/local/share/pixmaps/xcwcp.xpm /usr/local/bin/mfc_gpl
+  prog    "qrq" /usr/share/pixmaps/qrq.png /usr/bin/xterm -e "/usr/bin/qrq"
+  prog    "xcwcp" /usr/local/share/pixmaps/xcwcp.xpm /usr/local/bin/xcwcp
+}
+
+menu "Digital Modes" folder {
+  prog    "direwolf" /usr/local/share/icons/dw-icon.png /usr/bin/xterm -hold -e "echo Command line tool, try: direwolf --help"
+  prog    "echolink" /usr/local/share/pixmaps/link.xpm /usr/local/bin/qtel
+  prog    "FreeDV"   /usr/local/share/icons/freedv.png /usr/local/bin/freedv
+  prog    "flamp"    /usr/local/share/pixmaps/flamp.xpm /usr/local/bin/flamp
+  prog    "flarq"    /usr/local/share/pixmaps/flarq.xpm  /usr/local/bin/flarq
+  prog    "fldigi"   /usr/local/share/pixmaps/fldigi.xpm /usr/local/bin/fldigi
+  prog    "flmsg"    /usr/local/share/pixmaps/flmsg.xpm /usr/local/bin/flmsg
+  prog    "flwrap"   /usr/local/share/pixmaps/flwrap.xpm /usr/local/bin/flwrap
+  prog    "glfer"    /usr/local/share/pixmaps/xlog/cwdaemon.png /usr/bin/glfer
+  prog    "js8call"  /usr/share/pixmaps/js8call_icon.png /usr/bin/js8call
+  prog    "linpac"   /usr/share/xfe/icons/windows-theme/wave_16x16.png /usr/bin/xterm -hold -e "echo Command line tool, try: linpac"
+  prog    "pskmail"  /usr/local/share/pixmaps/flmsg.xpm "/usr/bin/java -jar /usr/local/src/jpskmail/javapskmail.jar"
+  prog    "pskmail_server"  /usr/local/share/pixmaps/flmsg.xpm /usr/local/bin/pskmail_server
+  prog    "qsstv"    /usr/local/share/icons/qsstv.png /usr/bin/qsstv
+  prog    "TinyTrak3" /usr/local/share/pixmaps/flmsg.xpm /usr/local/bin/tt3_gpl
+  prog    "wsjt-x"   /usr/share/pixmaps/wsjtx_icon.png /usr/bin/wsjtx
+  prog    "xastir"   /usr/share/xfe/icons/tango-theme/home.png /usr/local/bin/xastir
+  prog    "xwefax"   /usr/share/icons/gnome/16x16/status/weather-few-clouds-night.png /usr/local/bin/xwefax
+}
+
+menu "Electronic Design" folder {
+  prog    "Arduino" /usr/local/share/icons/arduino.png /usr/local/bin/arduino
+  prog    "Gerber Viewer" /usr/share/icons/hicolor/16x16/apps/gerbv.png /usr/bin/gerbv
+  prog    "KiCad" /usr/share/icons/hicolor/16x16/mimetypes/application-x-kicad-project.png /usr/bin/kicad
+  prog    "Netlist" /usr/share/icons/hicolor/16x16/mimetypes/application-x-pcb-netlist.png /usr/bin/xterm -hold -e "echo Command line tool, try: gnetlist && gnetlist -h"
+  prog    "PCB Layout" /usr/share/pixmaps/pcb.xpm /usr/bin/pcbnew
+  prog    "Resistors" /usr/share/gresistor/icon.png /usr/bin/gresistor
+  prog    "Schematic" /usr/share/icons/hicolor/48x48/apps/geda-gschem.png /usr/bin/gschem
+  prog    "Spice (cmd)" /usr/local/share/pixmaps/gspiceui-32x32.xpm /usr/bin/xterm -hold -e "echo Command line tool: try ngspice && ngspice --help"
+  prog    "Easy Spice" /usr/local/share/pixmaps/gspiceui-32x32.xpm /usr/bin/easy_spice
+  prog    "gSpiceUI" /usr/local/share/pixmaps/gspiceui-32x32.xpm /usr/bin/gspiceui
+  prog    "Smith Chart" /usr/share/pixmaps/mini-gsmc.xpm /usr/bin/gsmc
+}
+
+menu "HF Propagation" folder {
+  prog    "Beacons"  /usr/share/xfe/icons/windows-theme/wave_16x16.png /usr/bin/xterm -e "/usr/local/bin/ibp FN42go"
+  prog    "DX Cluster" /usr/share/xdx/pixmaps/xdx-logo.png /usr/bin/xdx
+  prog    "flcluster" /usr/share/xdx/pixmaps/xdx.xpm /usr/local/bin/flcluster
+  prog    "qgrid" /usr/local/share/pixmaps/qgrid.xpm /usr/local/bin/qgrid
+  prog    "Solar Data" /usr/share/pixmaps/sunclock.xpm /usr/local/bin/get_prop_data
+  prog    "SunClock" /usr/share/pixmaps/sunclock2.xpm /usr/bin/sunclock
+  prog    "splat"   /usr/share/icons/hicolor/16x16/apps/wicd-gtk.png /usr/bin/xterm -hold -e "echo Command line tool: try splat && /usr/bin/splat | less"
+  prog    "voacap"   /usr/local/share/icons/voacap.png /usr/local/bin/start_voacap
+}
+
+menu "Logging" folder {
+  prog    "cqrlog" /usr/share/icons/cqrlog.png /usr/bin/cqrlog
+  prog    "fllog"  /usr/local/share/pixmaps/fllog.xpm /usr/local/bin/fllog
+  prog    "flnet"  /usr/local/share/pixmaps/flnet.xpm /usr/local/bin/flnet
+  prog    "TQSL"   /usr/local/share/icons/TrustedQSL.png /usr/local/bin/tqsl
+  prog    "xlog"   /usr/local/share/icons/xlog-icon.png /usr/local/bin/xlog
+}
+
+menu "Rig Control" folder {
+  prog    "chirp"  /usr/share/pixmaps/chirp.png /usr/bin/chirpw
+  prog    "grig"   /usr/share/pixmaps/grig/ic910.png /usr/bin/grig
+  prog    "flrig"  /usr/local/share/pixmaps/flrig.xpm /usr/local/bin/flrig
+}
+
+menu "Satellites" folder {
+  prog    "APT WX Sats"   /usr/share/pixmaps/gpredict/icons/gpredict-azel-small.png /usr/local/bin/xwxapt
+  prog    "Earthtrack"    /usr/share/pixmaps/language-selector.png /usr/bin/earthtrack
+  prog    "Earthtrack (cleanup)" /usr/share/pixmaps/language-selector.png /usr/local/bin/earthtrack_cleanup
+  prog    "Fox-1A Telemetry" /usr/share/pixmaps/gpredict/icons/gpredict-azel-small.png /usr/local/bin/foxtelem
+  prog    "Gpredict"      /usr/share/pixmaps/gpredict/icons/gpredict-antenna-small.png /usr/bin/gpredict
+  prog    "hamfax" /usr/local/share/icons/gpredict.png /usr/bin/hamfax
+  prog    "Predict (server)" /usr/local/share/icons/gpredict.png /bin/sh -c "/usr/bin/predict -s"
+}
+
+menu "SDR" folder {
+  prog    "dream" /usr/share/xfe/icons/windows-theme/wave_16x16.png /usr/bin/dream
+  prog    "grc" /usr/share/gnuradio/grc/freedesktop/grc-icon-32.png /usr/bin/gnuradio-companion
+  prog    "grc examples" /usr/share/gnuradio/grc/freedesktop/grc-icon-32.png /usr/bin/xfe /usr/share/gnuradio/examples
+  prog    "gqrx" /usr/share/xfe/icons/windows-theme/wave_16x16.png /usr/bin/gqrx
+  prog    "quisk" /usr/share/xfe/icons/windows-theme/wave_16x16.png /usr/local/bin/quisk
+}
+

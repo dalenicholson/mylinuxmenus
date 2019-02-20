@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="48px"
+   height="48px"
+   id="svg3137"
+   version="1.1"
+   inkscape:version="0.48.3.1 r9886"
+   sodipodi:docname="Effects.svg">
+  <defs
+     id="defs3139">
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3878-7"
+       id="linearGradient3884-4"
+       x1="-1665.3199"
+       y1="-129.28825"
+       x2="-1012.9511"
+       y2="240.51591"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.65973025,0,0,0.65973025,992.93001,237.35143)" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3878-7">
+      <stop
+         style="stop-color:#4c4c4c;stop-opacity:1;"
+         offset="0"
+         id="stop3880-2" />
+      <stop
+         style="stop-color:#4c4c4c;stop-opacity:0;"
+         offset="1"
+         id="stop3882-7" />
+    </linearGradient>
+    <linearGradient
+       y2="240.51591"
+       x2="-1012.9511"
+       y1="-129.28825"
+       x1="-1665.3199"
+       gradientTransform="matrix(0.65973025,0,0,0.65973025,992.93001,237.35143)"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient3058"
+       xlink:href="#linearGradient3878-7"
+       inkscape:collect="always" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3985"
+       id="linearGradient3187"
+       gradientUnits="userSpaceOnUse"
+       x1="2716.5464"
+       y1="407.17847"
+       x2="2578.8315"
+       y2="409.04767"
+       gradientTransform="matrix(0.58481156,0,0,0.58481156,-1199.9215,-39.637689)" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3985">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop3987" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0;"
+         offset="1"
+         id="stop3989" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3953"
+       id="linearGradient3189"
+       gradientUnits="userSpaceOnUse"
+       x1="2708.7144"
+       y1="505.71756"
+       x2="2555.6885"
+       y2="504.71756"
+       gradientTransform="matrix(0.58481156,0,0,0.58481156,-1199.9215,-39.637689)" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3953">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop3955" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0;"
+         offset="1"
+         id="stop3957" />
+    </linearGradient>
+    <linearGradient
+       y2="240.51591"
+       x2="-1012.9511"
+       y1="-129.28825"
+       x1="-1665.3199"
+       gradientTransform="matrix(0.65973025,0,0,0.65973025,992.93001,237.35143)"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient3058-4"
+       xlink:href="#linearGradient3878-7-4"
+       inkscape:collect="always" />
+    <linearGradient
+       id="linearGradient3878-7-4">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop3880-2-3" />
+      <stop
+         style="stop-color:#4c4c4c;stop-opacity:0;"
+         offset="1"
+         id="stop3882-7-7" />
+    </linearGradient>
+    <linearGradient
+       y2="240.51591"
+       x2="-1012.9511"
+       y1="-129.28825"
+       x1="-1665.3199"
+       gradientTransform="matrix(0.65973025,0,0,0.65973025,992.93001,237.35143)"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient3019"
+       xlink:href="#linearGradient3878-7-4"
+       inkscape:collect="always" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3878-7-4"
+       id="linearGradient3815"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.0498249,0,0,0.0498249,162.17066,6.6552613)"
+       x1="-1684.645"
+       y1="-250.06982"
+       x2="-1104.7451"
+       y2="264.67224" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.46875"
+     inkscape:cx="90.437949"
+     inkscape:cy="26.688661"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     inkscape:grid-bbox="true"
+     inkscape:document-units="px"
+     inkscape:snap-bbox="false"
+     inkscape:snap-bbox-midpoints="true"
+     inkscape:window-width="1366"
+     inkscape:window-height="719"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata3142">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer">
+    <g
+       transform="matrix(0.07552314,0,0,0.07552314,-2.8185158,-16.030727)"
+       id="g3040"
+       inkscape:export-filename="/home/shubham/Shubham/Link to DA/SVG/Ubuntu Studio/Icons/Effects/rect3941.png"
+       inkscape:export-xdpi="89.043007"
+       inkscape:export-ydpi="89.043007">
+      <rect
+         inkscape:export-ydpi="6.7248082"
+         inkscape:export-xdpi="6.7248082"
+         inkscape:export-filename="/home/shubham/Shubham/Link to DA/SVG/Ubuntu Studio/Icons/SoundGen_48x48.png"
+         ry="84.72567"
+         y="208.61089"
+         x="38.415539"
+         height="642.39752"
+         width="642.39752"
+         id="rect3873-2"
+         style="fill:#000000;fill-opacity:1;stroke:none" />
+      <path
+         inkscape:export-ydpi="6.7248082"
+         inkscape:export-xdpi="6.7248082"
+         inkscape:export-filename="/home/shubham/Shubham/Link to DA/SVG/Ubuntu Studio/Icons/SoundGen_48x48.png"
+         sodipodi:nodetypes="sccss"
+         inkscape:connector-curvature="0"
+         id="rect3875-9"
+         d="m 123.14119,208.61088 472.94615,0 C 138.78556,261.03226 42.570733,576.9714 38.415533,781.36228 l 0,-488.02573 c 0,-46.93802 37.787633,-84.72567 84.725657,-84.72567 z"
+         style="fill:url(#linearGradient3058);fill-opacity:1;stroke:none" />
+    </g>
+    <path
+       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:1.70000005;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans"
+       d="M 5.2283757,20.838141 8.0841021,29.667713 10.6561,16.948777 13.601325,33.832019 17.353102,5.6243139 21.009666,44.304764 24.946085,15.883937 27.729889,32.561012 29.928004,20.826055 32.434906,25.516283 29.840423,19.227358 27.635711,29.975715 24.936475,13.783756 20.951193,42.300974 17.512352,3.6595579 13.662631,31.191924 10.888471,14.243368 7.9143582,28.36021 5.4664641,18.485123 2.2921389,27.134078 z"
+       id="path3777"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccccccccccccccc"
+       inkscape:export-filename="/home/shubham/Shubham/Link to DA/SVG/Ubuntu Studio/Icons/Effects/rect3941.png"
+       inkscape:export-xdpi="89.043007"
+       inkscape:export-ydpi="89.043007" />
+    <path
+       style="fill:none;stroke:#ffffff;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 32.877282,25.641784 13.765575,0"
+       id="path4014"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/shubham/Shubham/Link to DA/SVG/Ubuntu Studio/Icons/Effects/rect3941.png"
+       inkscape:export-xdpi="89.043007"
+       inkscape:export-ydpi="89.043007" />
+  </g>
+</svg>

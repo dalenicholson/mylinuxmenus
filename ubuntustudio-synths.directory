@@ -1,0 +1,8 @@
+[Desktop Entry]
+version=1.0
+Type=Directory
+Icon=ubuntustudio-synth
+X-Ubuntu-Gettext-Domain=gnome-menus
+Name=Instruments
+Comment=Synths, samplers and other noise makers
+

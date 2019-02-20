@@ -1,0 +1,8 @@
+[Desktop Entry]
+version=1.0
+Type=Directory
+Icon=applications-accessories
+X-Ubuntu-Gettext-Domain=gnome-menus
+Name=Graphics Utilities
+Comment=Utilities for Graphics Production
+

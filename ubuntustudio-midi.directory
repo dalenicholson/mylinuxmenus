@@ -1,0 +1,8 @@
+[Desktop Entry]
+version=1.0
+Type=Directory
+Icon=ubuntustudio-midi
+X-Ubuntu-Gettext-Domain=gnome-menus
+Name=Midi Utilities
+Comment=Midi filters and transport
+

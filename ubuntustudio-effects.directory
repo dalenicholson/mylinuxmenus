@@ -1,0 +1,8 @@
+[Desktop Entry]
+version=1.0
+Type=Directory
+Icon=ubuntustudio-effects
+X-Ubuntu-Gettext-Domain=gnome-menus
+Name=Effects
+Comment=Modules that modify sound as it passes through
+
