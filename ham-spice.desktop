@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=Spice
+GenericName=Spice
+Comment=Circuit level simulation program
+Encoding=UTF-8
+Exec=xterm -hold -e "echo Command line tool, try:  ngspice or ngspice --help  -  This is a circuit level simulation program"
+Icon=pcbnew
+Terminal=false
+Type=Application
+Categories=HamRadio;Electronics;
+X-Desktop-File-Install-Version=0.22
+Keywords=ham;radio

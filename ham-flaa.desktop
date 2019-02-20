@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=Rig Expert (gui)
+GenericName=GTK+ version of NEC2
+Comment=Antenna testing software
+Encoding=UTF-8
+Exec=flaa
+Icon=gpredict-antenna.png
+Terminal=false
+Type=Application
+Categories=Science;Math;NumericalAnalysis;
+X-Desktop-File-Install-Version=0.22
+Keywords=antenna;design;analysis;radio

@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=Splat
+GenericName=Splat
+Comment=Splat an RF signal propagation, loss, and terrain analysis tool
+Encoding=UTF-8
+Exec=xterm -hold -e "echo Command line tool, try:  splat  - Splat is an RF signal propagation, loss, and terrain analysis tool"
+Icon=kicad.pcv
+Terminal=false
+Type=Application
+Categories=HamRadio;Electronics;
+X-Desktop-File-Install-Version=0.22
+Keywords=ham;radio

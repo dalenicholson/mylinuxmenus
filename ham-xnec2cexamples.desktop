@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=Xnec2c Examples
+GenericName=GTK+ version of NEC2
+Comment=Numerical Electromagnetics Code software
+Encoding=UTF-8
+Exec=xdg-open /usr/share/doc/xnec2c/examples
+Icon=xnec2c
+Terminal=false
+Type=Application
+Categories=Science;Math;NumericalAnalysis;
+X-Desktop-File-Install-Version=0.22
+Keywords=antenna;design;analysis;radio

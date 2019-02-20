@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name=Gnetlist
+GenericName=Net List Tool
+Comment=Electronic Design Software - Generate a netlist from one or more gEDA schematic FILEs
+Encoding=UTF-8
+#Exec=xdg-open /usr/share/doc/xnec2c/examples
+Exec=xterm -hold -e "echo Command line tool, try:  gnetlist or gnetlist -h for help.  This is Electronic Design Software used to generate a netlist from one or more gEDA schematic FILEs"
+Icon=pcbnew
+Terminal=false
+Type=Application
+Categories=HamRadio;Electronics;
+X-Desktop-File-Install-Version=0.22
+Keywords=ham;radio

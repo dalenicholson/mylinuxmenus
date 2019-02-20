@@ -60,6 +60,27 @@
       <Filename>qsstv.desktop</Filename>  
       <Filename>wsjtx.desktop</Filename>  
       <Filename>xastir.desktop</Filename>  
+      <Filename>arduino.desktop</Filename>  
+      <Filename>gerbv.desktop</Filename>  <!-- Gerber Viewer -->
+      <Filename>kicad.desktop</Filename>  
+      <Filename>ham-gnetlist.desktop</Filename>  <!-- Netlist -->
+      <Filename>pcbnew.desktop</Filename>  <!-- PCB Layout --> 
+      <Filename>geda-gschem.desktop</Filename>  <!-- Schematic -->
+      <Filename>ham-spice.desktop</Filename>  <!-- Spice -->
+      <Filename>ham-easy_spice.desktop</Filename>  <!-- Easy Spice -->
+      <Filename>gspiceui.desktop</Filename>  <!-- Spice UI -->
+      <Filename>gsmc.desktop</Filename>  <!-- Smith Chart -->
+      <Filename>Xdx.desktop</Filename>  <!-- DX Cluster -->
+      <Filename>sunclock.desktop</Filename>  <!-- SunClock -->
+      <Filename>ham-splat.desktop</Filename>  <!-- splat -->
+      <Filename>cqrlog.desktop</Filename>  <!-- CQR Log -->
+      <Filename>tqsl.desktop</Filename>  <!-- TQSL -->
+      <Filename>xlog.desktop</Filename> 
+      <Filename>chirp.desktop</Filename> 
+      <Filename>grig.desktop</Filename> 
+      <Filename>flrig.desktop</Filename> 
+      <Filename>gpredict.desktop</Filename> 
+      <Filename>hamfax.desktop</Filename> 
     </Exclude>
 
     <Menu>  <!-- Antenna Start -->
@@ -75,21 +96,11 @@
             </Not>
 	 </And>
  <!--        <Category>Graphics</Category>   -->
-	 <Filename>ham-flaa.desktop</Filename>  
+      <!-- FL Moxgen fl_moxgen should go here, not installed -->
+      <!-- RigExpert Text aa-analyzer.pl should go here, not installed -->
+	 <Filename>ham-flaa.desktop</Filename>  <!-- RigExpert gui -->
 	 <Filename>xnec2c.desktop</Filename>  
 	 <Filename>ham-xnec2cexamples.desktop</Filename>  
-
-<!--  prog    "Fl Moxgen" /usr/local/share/icons/frect.png /usr/local/bin/fl_moxgen
-  prog    "RigExpert (text)" /usr/share/pixmaps/xterm-color_32x32.xpm /usr/bin/x
-term -hold -e "echo Command line tool, try: aa-analyzer.pl && /usr/local/bin/aa-
-analyzer.pl -version"
-  prog    "RigExpert (gui)" /usr/share/pixmaps/xterm-color_32x32.xpm /usr/local/
-bin/flaa 
-  prog    "Xnec2c" /usr/share/pixmaps/gpredict/icons/gpredict-antenna.png "/usr/
-bin/xnec2c"
-  prog    "Xnec2c Examples" /usr/share/pixmaps/gpredict/icons/gpredict-antenna.p
-ng "/usr/bin/xfe /usr/share/doc/xnec2c/examples"
--->
 
         </Include>
     </Menu>  <!-- End Antenna -->
@@ -106,19 +117,13 @@ ng "/usr/bin/xfe /usr/share/doc/xnec2c/examples"
                <Filename>agave.desktop</Filename>
             </Not>
 	 </And>
+      <!-- cwwav cmd line tool, cwwav --help should go here, not installed -->
 	 <Filename>ebook2cwgui.desktop</Filename>  
+      <!-- flwkey should go here, not installed -->
+      <!-- MicroFox mfc_gpl  should go here, not installed -->
 	 <Filename>qrq.desktop</Filename>  
 	 <Filename>xcwcp.desktop</Filename>  
 
-<!-- 
-  prog    "cwwav" /usr/share/pixmaps/xterm-color_32x32.xpm /usr/bin/xterm -hold 
--e "echo Command line tool, try: cwwav --help && /usr/local/bin/cwwav --help"
-  prog    "ebook2cw" /usr/share/pixmaps/ebook2cw.xpm /usr/bin/ebook2cwgui
-  prog    "flwkey" /usr/local/share/pixmaps/flwkey.xpm /usr/local/bin/flwkey
-  prog    "MicroFox" /usr/local/share/pixmaps/xcwcp.xpm /usr/local/bin/mfc_gpl
-  prog    "qrq" /usr/share/pixmaps/qrq.png /usr/bin/xterm -e "/usr/bin/qrq"
-  prog    "xcwcp" /usr/local/share/pixmaps/xcwcp.xpm /usr/local/bin/xcwcp
--->
         </Include>
     </Menu>  <!-- End CW -->
 
@@ -134,42 +139,24 @@ ng "/usr/bin/xfe /usr/share/doc/xnec2c/examples"
                <Filename>agave.desktop</Filename>
             </Not>
 	 </And>
-	 <Filename>qtel.desktop</Filename>  
-	 <Filename>freedv.desktop</Filename>  
+      <!-- direwolf cmdlin tool, direwolf --help should go here, not installed -->
+	 <Filename>qtel.desktop</Filename>  <!-- echolink -->
+	 <Filename>freedv.desktop</Filename>  <!-- FreeDV -->
 	 <Filename>flamp.desktop</Filename>  
 	 <Filename>flarq.desktop</Filename>  
 	 <Filename>fldigi.desktop</Filename>  
 	 <Filename>flmsg.desktop</Filename>  
 	 <Filename>flwrap.desktop</Filename>  
 	 <Filename>glfer.desktop</Filename>  
+      <!-- js8call should go here, not installed -->
+      <!-- linpac cmdlin tool, linpac should go here, not installed -->
+      <!-- pskmail javapskmail.jar  should go here, not installed -->
+      <!-- pskmail_server should go here, not installed -->
 	 <Filename>qsstv.desktop</Filename>  
-	 <Filename>wsjtx.desktop</Filename>  
+      <!-- TinyTrak3 tt3_gpl should go here, not installed -->
+	 <Filename>wsjtx.desktop</Filename>  <!-- wsjt-x -->
 	 <Filename>xastir.desktop</Filename>  
 
-<!--
-prog    "direwolf" /usr/local/share/icons/dw-icon.png /usr/bin/xterm -hold -e 
-"echo Command line tool, try: direwolf --help"
-  prog    "echolink" /usr/local/share/pixmaps/link.xpm /usr/local/bin/qtel
-  prog    "FreeDV"   /usr/local/share/icons/freedv.png /usr/local/bin/freedv
-  prog    "flamp"    /usr/local/share/pixmaps/flamp.xpm /usr/local/bin/flamp
-  prog    "flarq"    /usr/local/share/pixmaps/flarq.xpm  /usr/local/bin/flarq
-  prog    "fldigi"   /usr/local/share/pixmaps/fldigi.xpm /usr/local/bin/fldigi
-  prog    "flmsg"    /usr/local/share/pixmaps/flmsg.xpm /usr/local/bin/flmsg
-  prog    "flwrap"   /usr/local/share/pixmaps/flwrap.xpm /usr/local/bin/flwrap
-  prog    "glfer"    /usr/local/share/pixmaps/xlog/cwdaemon.png /usr/bin/glfer
-  prog    "js8call"  /usr/share/pixmaps/js8call_icon.png /usr/bin/js8call
-  prog    "linpac"   /usr/share/xfe/icons/windows-theme/wave_16x16.png /usr/bin/
-xterm -hold -e "echo Command line tool, try: linpac"
-  prog    "pskmail"  /usr/local/share/pixmaps/flmsg.xpm "/usr/bin/java -jar /usr
-/local/src/jpskmail/javapskmail.jar"
-  prog    "pskmail_server"  /usr/local/share/pixmaps/flmsg.xpm /usr/local/bin/ps
-kmail_server
-  prog    "qsstv"    /usr/local/share/icons/qsstv.png /usr/bin/qsstv
-  prog    "TinyTrak3" /usr/local/share/pixmaps/flmsg.xpm /usr/local/bin/tt3_gpl
-  prog    "wsjt-x"   /usr/share/pixmaps/wsjtx_icon.png /usr/bin/wsjtx
-  prog    "xastir"   /usr/share/xfe/icons/tango-theme/home.png /usr/local/bin/xa
-stir
--->
         </Include>
     </Menu>  <!-- End Digital Modes -->
 
@@ -185,32 +172,109 @@ stir
                <Filename>agave.desktop</Filename>
             </Not>
 	 </And>
-	 <Filename>qtel.desktop</Filename>  
+	 <Filename>arduino.desktop</Filename>  
+	 <Filename>gerbv.desktop</Filename>  <!-- Gerber Viewer -->
+	 <Filename>kicad.desktop</Filename>  
+	 <Filename>ham-gnetlist.desktop</Filename>  <!-- Netlist -->
+	 <Filename>pcbnew.desktop</Filename>  <!-- PCB Layout --> 
+      <!-- Resistors /usr/bin/gresistor should go here, not installed -->
+	 <Filename>geda-gschem.desktop</Filename>  <!-- Schematic -->
+	 <Filename>ham-spice.desktop</Filename>  <!-- Spice -->
+	 <Filename>ham-easy_spice.desktop</Filename>  <!-- Easy Spice -->
+	 <Filename>gspiceui.desktop</Filename>  <!-- Spice UI -->
+	 <Filename>gsmc.desktop</Filename>  <!-- Smith Chart -->
 
-<!--
-Arduino" /usr/local/share/icons/arduino.png /usr/local/bin/arduino
-  prog    "Gerber Viewer" /usr/share/icons/hicolor/16x16/apps/gerbv.png /usr/bin
-/gerbv
-  prog    "KiCad" /usr/share/icons/hicolor/16x16/mimetypes/application-x-kicad-p
-roject.png /usr/bin/kicad
-  prog    "Netlist" /usr/share/icons/hicolor/16x16/mimetypes/application-x-pcb-n
-etlist.png /usr/bin/xterm -hold -e "echo Command line tool, try: gnetlist && gne
-tlist -h"
-  prog    "PCB Layout" /usr/share/pixmaps/pcb.xpm /usr/bin/pcbnew
-  prog    "Resistors" /usr/share/gresistor/icon.png /usr/bin/gresistor
-  prog    "Schematic" /usr/share/icons/hicolor/48x48/apps/geda-gschem.png /usr/b
-in/gschem
-  prog    "Spice (cmd)" /usr/local/share/pixmaps/gspiceui-32x32.xpm /usr/bin/xte
-rm -hold -e "echo Command line tool: try ngspice && ngspice --help"
-  prog    "Easy Spice" /usr/local/share/pixmaps/gspiceui-32x32.xpm /usr/bin/easy
-_spice
-  prog    "gSpiceUI" /usr/local/share/pixmaps/gspiceui-32x32.xpm /usr/bin/gspice
-ui
-  prog    "Smith Chart" /usr/share/pixmaps/mini-gsmc.xpm /usr/bin/gsmc
--->
+
         </Include>
-    </Menu>  <!--  -->
+    </Menu>  <!-- end Electronic Design -->
 
+    <Menu>  <!-- HF Propagation Start -->
+        <Name>HF Propagation</Name>
+        <Directory>ham-hfpropagation.directory</Directory>
+
+        <Include>
+         <And>
+	    <Category>science</Category>
+            <Not>
+               <Category>Photography</Category>
+               <Filename>agave.desktop</Filename>
+            </Not>
+	 </And>
+      <!-- Beacons /usr/bin/xterm -e "/usr/local/bin/ibp FN42go"  goes here, not installed -->
+	 <Filename>Xdx.desktop</Filename>  <!-- DX Cluster -->
+      <!-- flcluster should go here, not installed -->
+      <!-- qgrid should go here, not installed -->
+      <!-- Solar Data (get_prop_data) should go here, not installed -->
+	 <Filename>sunclock.desktop</Filename>  <!-- SunClock -->
+	 <Filename>ham-splat.desktop</Filename>  <!-- splat -->
+      <!-- voacap (start_voacap) should go here, not installed -->
+
+        </Include>
+    </Menu>  <!-- end HF Propagation -->
+
+    <Menu>  <!-- Logging Start -->
+        <Name>Logging</Name>
+        <Directory>ham-logging.directory</Directory>
+
+        <Include>
+         <And>
+	    <Category>science</Category>
+            <Not>
+               <Category>Photography</Category>
+               <Filename>agave.desktop</Filename>
+            </Not>
+	 </And>
+      <!-- Beacons /usr/bin/xterm -e "/usr/local/bin/ibp FN42go"  goes here, not installed -->
+	 <Filename>cqrlog.desktop</Filename>  <!-- CQR Log -->
+      <!-- fllog should go here, not installed -->
+      <!-- flnet should go here, not installed -->
+	 <Filename>tqsl.desktop</Filename>  <!-- TQSL -->
+	 <Filename>xlog.desktop</Filename> 
+
+        </Include>
+    </Menu>  <!-- end logging -->
+
+    <Menu>  <!-- Rig Control Start -->
+        <Name>Rig Control</Name>
+        <Directory>ham-rigcontrol.directory</Directory>
+
+        <Include>
+         <And>
+	    <Category>science</Category>
+            <Not>
+               <Category>Photography</Category>
+               <Filename>agave.desktop</Filename>
+            </Not>
+	 </And>
+	 <Filename>chirp.desktop</Filename> 
+	 <Filename>grig.desktop</Filename> 
+	 <Filename>flrig.desktop</Filename> 
+
+        </Include>
+    </Menu>  <!-- end logging -->
+
+    <Menu>  <!-- Satallites Start -->
+        <Name>Satellites</Name>
+        <Directory>ham-satellites.directory</Directory>
+
+        <Include>
+         <And>
+	    <Category>science</Category>
+            <Not>
+               <Category>Photography</Category>
+               <Filename>agave.desktop</Filename>
+            </Not>
+	 </And>
+      <!-- APT WX Sats (xwxapt) should go here, not installed -->
+      <!-- Earthtrack (earthtrack) should go here, not installed -->
+      <!-- Earthtrack cleanup (earthtrack_cleanup) should gohere notinstalled-->
+      <!-- Fox-1A Telemetry (foxtelem) should go here, not installed -->
+	 <Filename>gpredict.desktop</Filename> 
+	 <Filename>hamfax.desktop</Filename> 
+      <!-- Predict server /usr/sh -c "predict -s"should gohere notinstalled -->
+
+        </Include>
+    </Menu>  <!-- end satallites -->
 
   </Menu> <!-- End hamradio -->
 
