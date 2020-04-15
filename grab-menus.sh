@@ -64,3 +64,11 @@ cp /usr/bin/menu* ./
 
 #git push origin master
 
+#grab my custom quotes used with "variety" wallpaper changer too.  Added 4/15/2020
+cp /home/dale/.config/variety/pluginconfig/quotes/* ./ 
+
+# add any changed or new files to the repository, you can do one 
+# file at a time but I'm too lazy.
+git add *
+# commit the added files to the repository
+git commit
