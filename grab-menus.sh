@@ -67,13 +67,24 @@ cp /usr/bin/menu* ./
 #grab my custom quotes used with "variety" wallpaper changer too.  Added 4/15/2020
 cp /home/dale/.config/variety/pluginconfig/quotes/* ./ 
 
+
 # add any changed or new files to the repository, you can do one 
 # file at a time but I'm too lazy.
+echo "Adding the changed files or additons to local repository."
 git add *
 # commit the added files to the local repository
+echo "Committing the changes/additons to local repository."
 git commit -m "updates and additions"
 
 #commit the added/updated files to the remote repository on github
 #note, I set up an ssh key so I wouldn't have to type user and password.
-# 
+#  keep in mind, you have to change your origin from https link to ssh link
+#  or it will keep asking for user and pass even after you set up keys
+# git remote -v    # to see what current path is, looks like
+# origin	https://github.com/dalenicholson/mylinuxmenus.git 
+#  Command to change:
+# sudo git remote set-url origin git@github.com:dalenicholson/mylinuxmenus.git
+#  changed to:
+# origin	git@github.com:dalenicholson/mylinuxmenus.git
+echo "updating local copy to github copy."
 git push origin master
