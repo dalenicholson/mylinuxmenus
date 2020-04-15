@@ -70,5 +70,8 @@ cp /home/dale/.config/variety/pluginconfig/quotes/* ./
 # add any changed or new files to the repository, you can do one 
 # file at a time but I'm too lazy.
 git add *
-# commit the added files to the repository
-git commit
+# commit the added files to the local repository
+git commit -m "updates and additions"
+
+#commit the added/updated files to the remote repository on github
+git push origin master
